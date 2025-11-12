@@ -1,12 +1,12 @@
-# Basic commands
+#Basic commands
 
-Commands to be used in User EXEC mode
+##Commands to be used in User EXEC mode
 
 enable -> switches from User EXEC to Privilge EXEC.
 
 
 
-Commands to be used in Privilege EXEC mode
+##Commands to be used in Privilege EXEC mode
 
 configure terminal -> Switches from Privilege access to Global configuration mode.
 
