@@ -1,0 +1,26 @@
+# Basic commands
+
+Commands to be used in User EXEC mode
+
+enable -> switches from User EXEC to Privilge EXEC.
+
+
+
+Commands to be used in Privilege EXEC mode
+
+configure terminal -> Switches from Privilege access to Global configuration mode.
+
+hostname -> Allows a device's hostname to be changed
+
+enable password -> Protects Privilege EXEC access
+service password-encryption -> Makes the enable password unreadable
+
+enable password secret -> Protects the Privilege EXEC access using MD5 encryption.
+
+show running-confiuguration -> Shows the current active configuration of the router
+
+show startup-config -> Shows the configuration that will be loaded during the next boot of the router
+
+write, write memory or copy running-config startu-config -> Allow to save the running configuration to be saved into the startup configuration
+
+
