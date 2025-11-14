@@ -1,0 +1,67 @@
+Layer 1 Physical: 
+- Defines physical characteristics of the medium used to transfer data between devices. (ex: voltage levels, maximum transmission distances, physical connectors, cable specification, etc)
+- Digital bits are converted into electrical (for wired connections) or radio (for wireless connexions) signals.
+
+
+Layer 2 Data Link:
+- Provies node-to-node connectivity and data transfer (ex: PC -> Switch, switch -> router, routeur -> router)
+- Defines how data is formattted for transmission over a physical medium
+- Detects and (possibly) corrects Physical Layer errors
+- Uses Layer 2 addressing, seperate from layer 3 adressing
+- Switches operate at Layer 2
+
+Layer 3 Network: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------
+
+OSI Model - PDUs or Protocol Data Units
+
+DATA : at the top, the data prepared by the upper layer of the OSI model is called 'Data'.
+DATA + Layer 4 header: is called a 'Segment'.
+DATA + Layer 4 Header + Layer 3 Header : The previous step "segment" is now called a 'Packet'.
+Layer 2 Trailer DATA + Layer 4 Header + Layer 3 Header + Layer 2 Header: The previous step "Packet" is now called a " A Frame".
+
+
+How is an Layer 2 Hearder composed? 
+
+Preamble + SFD + Destination + Source
+
+
+Preamble + SFD: These are used for synchronization and to allow the receiving device to be prepared to receive the rest of the data in the frame.
+
+Destination: The Layer 2 address to which the frame is being sent.
+
+Source: The Layer 2 adresse of the device who sent the frame.
+
+Type or Length: It indicates the Layer 3 protocol used ion the encapsulated Packet, Which is almost always IP, IPv4 or IPv6 
+Type can also behave as a Length field who indicates the length of the encapsulated data.
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------
