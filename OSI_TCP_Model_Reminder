@@ -4,13 +4,17 @@ Layer 1 Physical:
 
 
 Layer 2 Data Link:
-- Provies node-to-node connectivity and data transfer (ex: PC -> Switch, switch -> router, routeur -> router)
+- Provides node-to-node connectivity and data transfer (ex: PC -> Switch, switch -> router, routeur -> router)
 - Defines how data is formattted for transmission over a physical medium
 - Detects and (possibly) corrects Physical Layer errors
 - Uses Layer 2 addressing, seperate from layer 3 adressing
 - Switches operate at Layer 2
 
 Layer 3 Network: 
+- Provides connectivity between end hosts on different networks (i.e outside of the LAN) 
+- Provides logical addressing (IP Addresses)
+- Provides path selection between source and destination
+- Routers operate at Layer 3
 
 
 
@@ -56,6 +60,19 @@ Source: The Layer 2 adresse of the device who sent the frame.
 
 Type or Length: It indicates the Layer 3 protocol used ion the encapsulated Packet, Which is almost always IP, IPv4 or IPv6 
 Type can also behave as a Length field who indicates the length of the encapsulated data.
+
+---------------------------------------------------------------------
+
+IPv4 Address Classes
+
+Class A: 0 - 127 /8
+Class B: 128-191 /16
+Class C: 192-223 /24
+Class D: 224-239
+Class E: 240-255
+
+
+
 
 
 
